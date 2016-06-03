@@ -40,6 +40,6 @@ function OnTriggerEnter(col: Collider)
 
 function OnGUI () {
 	if(isWin){
-    GUI.Label (Rect (90, 50, 150, 150), "You Win!" , style);
+   // GUI.Label (Rect (90, 50, 150, 150), "You Win!" , style);
     }
 }
