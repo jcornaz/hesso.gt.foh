@@ -13,7 +13,7 @@ function easyClick()
 }
 function mediumClick()
 {
-	transform.position = Vector3(463.6601 , 63.8708, 374.0429);
+	transform.position = Vector3(508.474 , 65.2473, 408.64);
 }
 function hardClick()
 {

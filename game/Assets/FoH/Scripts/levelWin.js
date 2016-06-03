@@ -18,6 +18,17 @@ function OnTriggerEnter(col: Collider)
 	if(col.gameObject.name == "Plane M3")
 	{
 		isWin= true;
+		transform.position = Vector3(521.4 , 93.53, 426.45);
+	}
+	if(col.gameObject.name == "Plane F4")
+	{
+		isWin= true;
+		transform.position = Vector3(521.4 , 93.53, 426.45);
+	}
+	if(col.gameObject.name == "Plane D5")
+	{
+		isWin= true;
+		transform.position = Vector3(521.4 , 93.53, 426.45);
 	}
 }
 
