@@ -38,6 +38,10 @@ function loseResult()
 	showWin= false;
 	showLose = true;
 }
+function NBridgClick()
+{
+	transform.position = Vector3(455.63,98.444,376.57);
+}
 
 function OnGUI () {
 	if(showWin){
