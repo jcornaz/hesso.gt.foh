@@ -3,7 +3,7 @@
 
 var isWin : boolean = false;
 var style : GUIStyle =  new GUIStyle();
-
+var soundWin : AudioClip;
 
 function Start () {
 style.normal.textColor = Color.red;
