@@ -2,6 +2,8 @@
 
 var showWin:boolean= false;
 var showLose:boolean= false;
+public var Score:GameObject;
+
 function Start () {
 
 }
@@ -32,6 +34,7 @@ function winResult()
 {
 	showWin= true;
 	showLose = false;
+
 }
 function loseResult()
 {
