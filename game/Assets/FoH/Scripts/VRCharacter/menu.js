@@ -16,34 +16,39 @@ function easyClick()
 	transform.position = Vector3(518.012, 21.1816, 401.624);
 	showWin =false;
 	showLose = false;
+	Score.GetComponent.<TextMesh>().text = "";
 }
 function mediumClick()
 {
 	transform.position = Vector3(508.474 , 65.2473, 408.64);
 	showWin= false;
 	showLose = false;
+	Score.GetComponent.<TextMesh>().text = "";
 }
 function hardClick()
 {
 	transform.position = Vector3(506.02,82.6933, 412.94);
 	showWin= false;
 	showLose = false;
+	Score.GetComponent.<TextMesh>().text = "";
 }
 
 function winResult()
 {
-	showWin= true;
+	showWin= false;
 	showLose = false;
-
+	Score.GetComponent.<TextMesh>().text = "Easy: " + PlayerPrefs.GetInt("WF") + " Medium: " +PlayerPrefs.GetInt("WM") + " Hard: " +PlayerPrefs.GetInt("WD") +" Super: 0" ;
 }
 function loseResult()
 {
 	showWin= false;
-	showLose = true;
+	showLose = false;
+	Score.GetComponent.<TextMesh>().text = "Lose: " + PlayerPrefs.GetInt("L");
 }
 function NBridgClick()
 {
 	transform.position = Vector3(455.63,98.444,376.57);
+	Score.GetComponent.<TextMesh>().text = "";
 }
 
 function Rest()
