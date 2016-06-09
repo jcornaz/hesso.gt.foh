@@ -43,6 +43,11 @@ function NBridgClick()
 	transform.position = Vector3(455.63,98.444,376.57);
 }
 
+function Rest()
+{
+	transform.position = Vector3(522.386 ,93.53, 426.851);
+}
+
 function OnGUI () {
 	if(showWin){
 	var wf = PlayerPrefs.GetInt("WF");
