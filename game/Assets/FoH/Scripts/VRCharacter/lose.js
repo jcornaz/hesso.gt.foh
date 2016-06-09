@@ -26,7 +26,7 @@ function OnTriggerEnter(col: Collider)
 		transform.position = Vector3(522.386 ,93.53, 426.851);
 
 	}
-	if(col.gameObject.name == "Plane Scream2"){
+	/*if(col.gameObject.name == "Plane Scream2"){
 		var audio2: AudioSource = GetComponent.<AudioSource>();
 		audio2.Play();
 		transform.position = Vector3(522.386 ,93.53, 426.851);
@@ -38,5 +38,6 @@ function OnTriggerEnter(col: Collider)
 		//transform.position = Vector3(522.386 ,93.53, 426.851);
 
 	}
+	*/
 
 }
