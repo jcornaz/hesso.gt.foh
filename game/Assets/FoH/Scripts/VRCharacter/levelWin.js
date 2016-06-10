@@ -22,7 +22,7 @@ function OnTriggerEnter(col: Collider)
 		var wm = PlayerPrefs.GetInt("WM");
 		PlayerPrefs.SetInt("WM", wm + 1 );
 	}
-	if(col.gameObject.name == "Plane F4")
+	if(col.gameObject.name == "Plane Plank")
 	{
 		isWin= true;
 		transform.position = Vector3(522.386 , 93.53, 426.851);
@@ -36,6 +36,7 @@ function OnTriggerEnter(col: Collider)
 		var wd = PlayerPrefs.GetInt("WD");
 		PlayerPrefs.SetInt("WD", wd + 1 );
 	}
+
 }
 
 function OnGUI () {
