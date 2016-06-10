@@ -17,6 +17,10 @@ function easyClick()
 	showWin =false;
 	showLose = false;
 	Score.GetComponent.<TextMesh>().text = "";
+	GameObject.Find("Level1").SetActive(true);
+	GameObject.Find("Level2").SetActive(false);
+	GameObject.Find("Level3").SetActive(false);
+	GameObject.Find("Level4").SetActive(false);
 }
 function mediumClick()
 {
@@ -24,6 +28,10 @@ function mediumClick()
 	showWin= false;
 	showLose = false;
 	Score.GetComponent.<TextMesh>().text = "";
+	GameObject.Find("Level1").SetActive(false);
+	GameObject.Find("Level2").SetActive(true);
+	GameObject.Find("Level3").SetActive(false);
+	GameObject.Find("Level4").SetActive(false);
 }
 function hardClick()
 {
@@ -31,6 +39,10 @@ function hardClick()
 	showWin= false;
 	showLose = false;
 	Score.GetComponent.<TextMesh>().text = "";
+	GameObject.Find("Level1").SetActive(false);
+	GameObject.Find("Level2").SetActive(false);
+	GameObject.Find("Level3").SetActive(true);
+	GameObject.Find("Level4").SetActive(false);
 }
 
 function winResult()
@@ -49,6 +61,10 @@ function NBridgClick()
 {
 	transform.position = Vector3(455.63,98.444,376.57);
 	Score.GetComponent.<TextMesh>().text = "";
+	GameObject.Find("Level1").SetActive(false);
+	GameObject.Find("Level2").SetActive(false);
+	GameObject.Find("Level3").SetActive(false);
+	GameObject.Find("Level4").SetActive(true);
 }
 
 function Rest()
